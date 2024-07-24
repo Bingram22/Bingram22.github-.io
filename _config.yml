@@ -13,7 +13,6 @@ highlighter: rouge
 scholar:
   style: apa
   locale: en
-  source: _bibliography/references.bib
   bibliography_class: bibliography
   details_dir: publications
   details_layout: bibtex.html
