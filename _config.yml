@@ -20,3 +20,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-scholar
+
+header_pages:
+  - index.md
+  - about.md
+  - research.md
+  - publications.md
+  - contact.md
