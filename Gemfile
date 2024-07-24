@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-# GitHub Pages gem
-gem 'github-pages', group: :jekyll_plugins
-
-# Jekyll Scholar is not included in the GitHub Pages gem, so it must be specified separately
+gem 'jekyll', '~> 4.2.0'
+gem 'minima', '~> 2.5'
 gem 'jekyll-scholar'
+gem 'jekyll-feed', '~> 0.12'
+gem 'jekyll-seo-tag', '~> 2.7'
