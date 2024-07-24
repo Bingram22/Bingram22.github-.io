@@ -5,4 +5,4 @@ title: Publications
 
 # Publications
 
-{% bibliography %}
+{% bibliography --file _bibliography/references.bib %}
