@@ -1,0 +1,31 @@
+title: "My Research Portfolio"
+description: "A portfolio showcasing my research work."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://https://bingram22.github.io/"
+
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Jekyll Scholar settings
+scholar:
+  style: apa
+  locale: en
+  bibliography_class: bibliography
+  details_dir: publications
+  details_layout: bibtex.html
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-scholar
+
+header_pages:
+  - index.md
+  - about.md
+  - research.md
+  - publications.md
+  - contact.md
+
